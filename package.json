@@ -57,6 +57,9 @@
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true
-    }
+    },
+    "asarUnpack": [
+      "node_modules/better-sqlite3/**"
+    ]
   }
 }
