@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  feedloft:
+    build: .
+    image: feedloft:latest
+    container_name: feedloft
+    restart: unless-stopped
+    ports:
+      - '5331:5331'
+    environment:
+      PORT: 5331
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-change-me-please}
+      POLL_MINUTES: ${POLL_MINUTES:-15}
+      FEEDLOFT_DB_PATH: /app/data/feedloft.db
+    volumes:
+      - feedloft-data:/app/data
+
+volumes:
+  feedloft-data:

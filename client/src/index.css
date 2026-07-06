@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2f38;
+  border-radius: 8px;
+}
+
+.feedloft-notice {
+  color: #f0b429;
+  border-left: 3px solid #f0b429;
+  padding-left: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.article-body p {
+  margin-bottom: 1em;
+}
+.article-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1em 0;
+}
+.article-body a {
+  color: #f0b429;
+  text-decoration: underline;
+}
+.article-body h1, .article-body h2, .article-body h3 {
+  font-weight: 700;
+  margin: 1.2em 0 0.5em;
+}
+.article-body blockquote {
+  border-left: 3px solid #2a2f38;
+  padding-left: 1em;
+  color: #9ca3af;
+  margin: 1em 0;
+}
+.article-body pre, .article-body code {
+  background: rgba(255,255,255,0.05);
+  border-radius: 6px;
+  padding: 0.15em 0.4em;
+}
+.article-body ul, .article-body ol {
+  margin: 1em 0;
+  padding-left: 1.5em;
+}
