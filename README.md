@@ -114,7 +114,7 @@ variables before starting.
 Prefer not to run `npm install` yourself? Grab the packaged Windows
 installer (desktop app, pre-built, auto-updating data folder) on Whop:
 
-**[https://whop.com/onetime-suite](https://whop.com/onetime-suite)**
+**[https://whop.com/benjisaiempire/feedloft](https://whop.com/benjisaiempire/feedloft)**
 
 The source in this repository is fully functional and MIT-licensed — the
 Whop listing is purely a convenience purchase for people who'd rather not
