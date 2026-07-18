@@ -1,5 +1,9 @@
 # Feedloft
 
+## Demo
+
+VIDEO-PLACEHOLDER
+
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 **A fast, keyboard-first RSS reader you host yourself.**
